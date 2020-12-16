@@ -53,8 +53,9 @@ public class MainHomeWork1 {
 
         // задание 3
 
-        Box appleBox = new Box();
-        Box orangeBox = new Box();
+        Box<Apple> appleBox = new Box<>();
+        Box<Orange> orangeBox = new Box<>();
+        Box<Apple> appleBox2 = new Box<>();
 
         appleBox.add(new Apple(6));
         appleBox.add(new Apple(3));
@@ -63,9 +64,7 @@ public class MainHomeWork1 {
         System.out.println(appleBox.getWeight());
         System.out.println(orangeBox.getWeight());
 
-        System.out.println(appleBox.compare(orangeBox));
-
-        Box appleBox2 = new Box();
+        System.out.println(appleBox.compare(appleBox2));
 
         appleBox.pour(appleBox2);
 

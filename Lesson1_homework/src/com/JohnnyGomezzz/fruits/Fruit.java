@@ -1,6 +1,5 @@
 package com.JohnnyGomezzz.fruits;
 
-// используем абстрактный класс, т.к. интерфейс не имеет полей...
 public abstract class Fruit {
 
     private float weight;
